@@ -7,6 +7,7 @@ interface types {
         amount-in-base: f64,
         pnl: f64,
         delta: f64,    
+        currency: string,
     }
     record exercised-interests{
         total-delta: f64,
